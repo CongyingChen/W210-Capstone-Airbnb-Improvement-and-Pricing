@@ -1,6 +1,6 @@
-# W210-Capstone-Airbnb-Improvement-and-Pricing
+## W210 Capstone
 
-## Improve Your Airbnb Listing for Higher Price and Better Revenue
+# Improve Your Airbnb Listing for Higher Price and Better Revenue
 
 ### Problem
 Individual hosts of Airbnbs are interested in improve the quality of their listings by asking suggestions from experts. 
