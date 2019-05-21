@@ -70,6 +70,37 @@ Data visualization about quality score with multiple variables and timespane.
 
 
 
+# Rory's Idea: First-time listing optimization on Airbnb
+
+
+### Problem
+Airbnb provides a platform for property owners to list their spare room or property online and rent to travelers. As a property owner who does not have too much experience with renting their room / apartment for a short term, figuring out what would be a fair daily rate to charge at the start can be challenging. While he / she can certainly use prices for other nearby listings as a reference, or look at the average price per footage in the area, these reference points may not serve as a very good anchor because each property is unique and other property owners may have different goals in mind when they set up pricing. Also, since he / she is making a new listing, there is no historical booking data to look back to, to understand price elasticity. The other special aspect of property rental pricing is seasonality - the property owner needs to find not just 1 optimal price, but rather optimal prices, for different periods of time. If your spare room is in or near coachella, you can expect much higher prices during the music festival days.
+
+In addition to the challenge of setting the right price, emphasizing the right characteristics may also help make the listing more successful. If the property owner understands what drives renter’s willingness-to-pay, he/she can also tailor the descriptions in the listing / title accordingly.
+
+### Target User / Customer
+People interested in putting their room / apartment / house on Airbnb and become a host
+ 
+### Data
+Insideairbnb (http://insideairbnb.com/get-the-data.html) - listing, calendar, and reviews data for Airbnb in many cities at various times (this data does not ah ever occupancy rate - of course, but we could potentially use number of reviews as a proxy for how often a property is booked)
+
+Large scale conjoint (ACBC) survey - to complement existing data and reveal underlying preferences of travelers when selecting accommodation. We will split our sample into different groups that go through trade off exercises for different types of destinations and travel purposes (business vs. leisure), since preferences will likely change accordingly
+
+Weather, events, holiday data to infer seasonality
+
+
+### Possible data science techniques:
+Clustering (to identify similar listings)
+
+Regression models (linear, decision tree, etc.) to predict occupancy rate at various price points
+
+Conjoint utility modeling based on results from conjoint survey
+
+Data Visualization
+
+### Related research/products
+Beyondpricing (https://beyondpricing.com/) is a dynamic pricing tool developed for property owners on Airbnb. However this tool focuses on optimizing and adjusting prices of existing listings based on forecasted booking curve (generated on historical data). I aim to focus on the “first time pricing” challenger instead of the “revenue management” challenge
+
 
 
 
