@@ -62,7 +62,9 @@ Data visualization about quality score with multiple variables and timespane.
 	
 
 ### References
- 	Get the data: http://insideairbnb.com/get-the-data.html
+ InsiderAirbnb: http://insideairbnb.com/get-the-data.html
+ AirDNA:https://www.airdna.co/vacation-rental-data
+ 
 
 
 
