@@ -1,4 +1,4 @@
-## W210 Capstone
+## W210 Capstone Ideas
 
 # Improve Your Airbnb Listing for Higher Price and Better Revenue
 
